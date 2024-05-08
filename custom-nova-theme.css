@@ -1,0 +1,75 @@
+/* Overall chat container styling */
+.custom-ai-chat-comp {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensures no overflow */
+}
+
+/* Bot message styling */
+.custom-ai-chat-comp .bot-message {
+    background-color: #f8f8f8; /* Light grey background for bot messages */
+    color: #333; /* Dark grey text color for readability */
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+    line-height: 1.5;
+}
+
+/* User message styling */
+.custom-ai-chat-comp .user-message {
+    background-color: #004d40; /* Teal background for user messages */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+    text-align: right; /* Aligns text to the right */
+    line-height: 1.5;
+}
+
+/* Header styling */
+.custom-ai-chat-comp .chat-header {
+    background-color: #00796b; /* Darker teal background for header */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    font-size: 16px;
+    text-align: center; /* Centers the header text */
+}
+
+/* Input area styling */
+.custom-ai-chat-comp .chat-input-area {
+    padding: 10px;
+    background-color: #e0e0e0; /* Light gray background for input area */
+}
+
+.custom-ai-chat-comp input {
+    width: 100%; /* Full-width input field */
+    padding: 8px; /* Padding for input field */
+    border: none; /* No border for a cleaner look */
+    border-radius: 4px; /* Rounded corners for the input field */
+}
+
+.custom-ai-chat-comp button {
+    background-color: #00897b; /* Button color in teal */
+    color: #ffffff; /* Text color in white */
+    border: none;
+    padding: 10px 20px;
+    margin-left: 5px;
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.custom-ai-chat-comp button:hover {
+    background-color: #00695c; /* Darker teal for hover effect */
+}
+
+/* Utility classes for margins and padding if needed */
+.mr-5 {
+    margin-right: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
