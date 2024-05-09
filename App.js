@@ -13,9 +13,9 @@ export default () => {
       adapter={adapter}
       personaOptions={{
         bot: {
-          name: 'Welcome to our Restaurant',
+          name: 'Welcome to AI ChatBot',
           picture: <span style={botStyle}>🤖</span>,
-          tagline: 'Im Your Restaurant bot'
+          tagline: 'Feel Free to ask anything'
         },
         user
       }}
